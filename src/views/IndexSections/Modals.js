@@ -141,16 +141,15 @@ class Modals extends React.Component {
               <div className="modal-body">
                 <div className="py-3 text-center">
                   <i className="ni ni-bell-55 ni-3x" />
-                  <h4 className="heading mt-4">You should read this!</h4>
+                  <h4 className="heading mt-4">Subscribe to our patreon!</h4>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
+                    Viewers, subscribers, patrons like you are the reason more immigrants breathe easier. Check it out.
                   </p>
                 </div>
               </div>
               <div className="modal-footer">
                 <Button className="btn-white" color="default" type="button">
-                  Ok, Got it
+                  Go!
                 </Button>
                 <Button
                   className="text-white ml-auto"

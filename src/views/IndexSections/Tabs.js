@@ -46,13 +46,13 @@ class TabsSection extends React.Component {
   render() {
     return (
       <>
-        <h3 className="h4 text-success font-weight-bold mb-4">Tabs</h3>
+        <h3 className="h4 text-success font-weight-bold mb-4">Founding Team Updates</h3>
         <Row className="justify-content-center">
           <Col lg="6">
             {/* Tabs with icons */}
             <div className="mb-3">
               <small className="text-uppercase font-weight-bold">
-                With icons
+                Operations Org
               </small>
             </div>
             <div className="nav-wrapper">
@@ -72,8 +72,8 @@ class TabsSection extends React.Component {
                     href="#pablo"
                     role="tab"
                   >
-                    <i className="ni ni-cloud-upload-96 mr-2" />
-                    Home
+                    <i className="ni ni-bell-55 mr-2" />
+                    Updates
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -87,7 +87,7 @@ class TabsSection extends React.Component {
                     role="tab"
                   >
                     <i className="ni ni-bell-55 mr-2" />
-                    Profile
+                    Progress
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -100,8 +100,8 @@ class TabsSection extends React.Component {
                     href="#pablo"
                     role="tab"
                   >
-                    <i className="ni ni-calendar-grid-58 mr-2" />
-                    Messages
+                 <i className="ni ni-bell-55 mr-2" />
+                    Social Outreach
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -111,33 +111,20 @@ class TabsSection extends React.Component {
                 <TabContent activeTab={"iconTabs" + this.state.iconTabs}>
                   <TabPane tabId="iconTabs1">
                     <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth master
-                      cleanse. Mustache cliche tempor, williamsburg carles vegan
-                      helvetica. Reprehenderit butcher retro keffiyeh
-                      dreamcatcher synth.
+                      Advocacy, support, lobbying on the behalf of the best interests of the immigrants.
                     </p>
                     <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth master
-                      cleanse.
+                      NO MORE Predominantly White Universities.
                     </p>
                   </TabPane>
                   <TabPane tabId="iconTabs2">
                     <p className="description">
-                      Cosby sweater eu banh mi, qui irure terry richardson ex
-                      squid. Aliquip placeat salvia cillum iphone. Seitan
-                      aliquip quis cardigan american apparel, butcher voluptate
-                      nisi qui.
+                      SCHOOL AND OPPORTUNITIES FOR ALL
                     </p>
                   </TabPane>
                   <TabPane tabId="iconTabs3">
                     <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth master
-                      cleanse. Mustache cliche tempor, williamsburg carles vegan
-                      helvetica. Reprehenderit butcher retro keffiyeh
-                      dreamcatcher synth.
+                      USCIS support, Customs Interview Prep, ESL Classes, Professional Connections, Resume building
                     </p>
                   </TabPane>
                 </TabContent>
@@ -148,7 +135,7 @@ class TabsSection extends React.Component {
             {/* Menu */}
             <div className="mb-3">
               <small className="text-uppercase font-weight-bold">
-                With text
+                Engineering Org (bigsis-devs)
               </small>
             </div>
             <div className="nav-wrapper">
@@ -168,7 +155,7 @@ class TabsSection extends React.Component {
                     href="#pablo"
                     role="tab"
                   >
-                    Home
+                    Machine Learning/AI 
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -181,7 +168,7 @@ class TabsSection extends React.Component {
                     href="#pablo"
                     role="tab"
                   >
-                    Profile
+                    Web Development
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -194,7 +181,7 @@ class TabsSection extends React.Component {
                     href="#pablo"
                     role="tab"
                   >
-                    Messages
+                    Data Analytics
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -204,33 +191,19 @@ class TabsSection extends React.Component {
                 <TabContent activeTab={"plainTabs" + this.state.plainTabs}>
                   <TabPane tabId="plainTabs1">
                     <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth master
-                      cleanse. Mustache cliche tempor, williamsburg carles vegan
-                      helvetica. Reprehenderit butcher retro keffiyeh
-                      dreamcatcher synth.
+                      Ingesting kaggle datasets at the moment, training regression models, researching d3 tutorials. We're on our way with the MVP!
                     </p>
                     <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth master
-                      cleanse.
                     </p>
                   </TabPane>
                   <TabPane tabId="plainTabs2">
                     <p className="description">
-                      Cosby sweater eu banh mi, qui irure terry richardson ex
-                      squid. Aliquip placeat salvia cillum iphone. Seitan
-                      aliquip quis cardigan american apparel, butcher voluptate
-                      nisi qui.
+                      This very website prototype. How am I doing! (no really, feedback appreciated)
                     </p>
                   </TabPane>
                   <TabPane tabId="plainTabs3">
                     <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth master
-                      cleanse. Mustache cliche tempor, williamsburg carles vegan
-                      helvetica. Reprehenderit butcher retro keffiyeh
-                      dreamcatcher synth.
+                      Just hired! Heemakshi Data for Data Analytics intern! More to come!
                     </p>
                   </TabPane>
                 </TabContent>

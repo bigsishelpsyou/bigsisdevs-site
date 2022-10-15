@@ -24,7 +24,7 @@ class Labels extends React.Component {
   render() {
     return (
       <>
-        <Col lg="5">
+        {/* <Col lg="5">
           <h3 className="h4 text-success font-weight-bold mb-5">Labels</h3>
           <Badge className="text-uppercase" color="primary" pill>
             Primary
@@ -41,7 +41,7 @@ class Labels extends React.Component {
           <Badge className="text-uppercase" color="info" pill>
             Info
           </Badge>
-        </Col>
+        </Col> */}
       </>
     );
   }

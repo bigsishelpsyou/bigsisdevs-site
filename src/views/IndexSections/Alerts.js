@@ -24,7 +24,7 @@ class Alerts extends React.Component {
   render() {
     return (
       <>
-        <h3 className="mt-lg mb-4">
+        {/* <h3 className="mt-lg mb-4">
           <span>Alerts</span>
         </h3>
         <UncontrolledAlert color="success" fade={false}>
@@ -58,7 +58,7 @@ class Alerts extends React.Component {
           <span className="alert-inner--text ml-1">
             <strong>Danger!</strong> This is an error alert—check it out!
           </span>
-        </UncontrolledAlert>
+        </UncontrolledAlert> */}
       </>
     );
   }

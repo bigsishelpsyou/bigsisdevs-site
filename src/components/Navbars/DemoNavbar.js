@@ -75,7 +75,7 @@ class DemoNavbar extends React.Component {
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 <img
                   alt="..."
-                  src={require("assets/img/brand/argon-react-white.png")}
+                  src={require("assets/img/brand/bigsisdevs.png")}
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
@@ -94,7 +94,7 @@ class DemoNavbar extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          src={require("assets/img/brand/logo-v0-transparent.png")}
                         />
                       </Link>
                     </Col>
@@ -110,13 +110,13 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Components</span>
+                      <span className="nav-link-inner--text">Atoms</span>
                     </DropdownToggle>
                     <DropdownMenu className="dropdown-menu-xl">
                       <div className="dropdown-menu-inner">
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/overview?ref=adsr-navbar"
+                          href="https://ashacallaway.medium.com/bigsis-the-problem-8f5c2822007a"
                           target="_blank"
                         >
                           <div className="icon icon-shape bg-gradient-primary rounded-circle text-white">
@@ -127,32 +127,30 @@ class DemoNavbar extends React.Component {
                               Getting started
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Learn how to use Argon compiling Scss, change
-                              brand colors and more.
+                              Learn more about the problem we intend to solve.
                             </p>
                           </Media>
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/colors?ref=adsr-navbar"
+                          href="https://medium.com/@bigsishelpsyou/bigsis-the-founding-team-344ed2398087"
                           target="_blank"
                         >
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                            <i className="ni ni-palette" />
+                            <i className="ni ni-planet" />
                           </div>
                           <Media body className="ml-3">
                             <h6 className="heading text-primary mb-md-1">
-                              Foundation
+                              Board of Directors
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Learn more about colors, typography, icons and the
-                              grid system we used for Argon.
+                              Learn more about our Board of Directors, a cumulative 100 years of experience in higher ed.
                             </p>
                           </Media>
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alert?ref=adsr-navbar"
+                          href="https://medium.com/@bigsishelpsyou/bigsis-the-founding-team-344ed2398087"
                           target="_blank"
                         >
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
@@ -160,11 +158,44 @@ class DemoNavbar extends React.Component {
                           </div>
                           <Media body className="ml-3">
                             <h5 className="heading text-warning mb-md-1">
-                              Components
+                              Founding Team
                             </h5>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Browse our 50 beautiful handcrafted components
-                              offered in the Free version.
+                              Learn more about our humble founders!
+                            </p>
+                          </Media>
+                        </Media>
+                        <Media
+                          className="d-flex align-items-center"
+                          href="https://calendly.com/supportforinternationalscholars/30min"
+                          target="_blank"
+                        >
+                          <div className="icon icon-shape bg-gradient-dark rounded-circle text-white">
+                            <i class="ni ni-calendar-grid-58"></i>
+                          </div>
+                          <Media body className="ml-3">
+                            <h6 className="heading text-primary mb-md-1">
+                              Chat with the team (Book a session!)
+                            </h6>
+                            <p className="description d-none d-md-inline-block mb-0">
+                              Meet with Founding ED, ashacallaway, with your questions, comments and concerns.
+                            </p>
+                          </Media>
+                        </Media>
+                        <Media
+                          className="d-flex align-items-center"
+                          href="https://patreon.com/user?u=81080357&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator"
+                          target="_blank"
+                        >
+                        <div className="icon icon-shape bg-gradient-white rounded-circle text-white">
+                          <i className="ni ni-ruler-pencil text-primary" />
+                        </div>
+                          <Media body className="ml-3">
+                            <h6 className="heading text-primary mb-md-1">
+                              Follow us on Patreon!
+                            </h6>
+                            <p className="description d-none d-md-inline-block mb-0">
+                              Check out our live posts, immigrant-focused podcast episodes, and updates to live events!
                             </p>
                           </Media>
                         </Media>
@@ -174,20 +205,23 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Examples</span>
+                      <span className="nav-link-inner--text">Molecules</span>
                     </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem to="/landing-page" tag={Link}>
-                        Landing
+                        Literature
                       </DropdownItem>
                       <DropdownItem to="/profile-page" tag={Link}>
-                        Profile
+                        Data
                       </DropdownItem>
                       <DropdownItem to="/login-page" tag={Link}>
-                        Login
+                        Support
                       </DropdownItem>
                       <DropdownItem to="/register-page" tag={Link}>
                         Register
+                      </DropdownItem>
+                      <DropdownItem to="/register-page" tag={Link}>
+                        Shop
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
@@ -196,7 +230,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
+                      href="https://www.facebook.com/supportforinternationalscholars"
                       id="tooltip333589074"
                       target="_blank"
                     >
@@ -212,7 +246,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.instagram.com/creativetimofficial"
+                      href="https://www.instagram.com/bigsishelpsyou"
                       id="tooltip356693867"
                       target="_blank"
                     >
@@ -228,7 +262,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://twitter.com/creativetim"
+                      href="https://twitter.com/bigsishelpsyou"
                       id="tooltip184698705"
                       target="_blank"
                     >
@@ -244,7 +278,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/creativetimofficial/argon-design-system-react"
+                      href="https://github.com/bigsishelpsyou"
                       id="tooltip112445449"
                       target="_blank"
                     >
@@ -254,21 +288,21 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip112445449">
-                      Star us on Github
+                      Check us out on Github
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem className="d-none d-lg-block ml-lg-4">
                     <Button
                       className="btn-neutral btn-icon"
                       color="default"
-                      href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-navbar"
+                      href="https://drive.google.com/drive/folders/1r9RGaMYAqZo3kafIgkhPlGvtYWPKEMAY?usp=sharinghttps://patreon.com/user?u=81080357&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator"
                       target="_blank"
                     >
                       <span className="btn-inner--icon">
-                        <i className="fa fa-cloud-download mr-2" />
+                        <i className="fa fa-link mr-2" />
                       </span>
                       <span className="nav-link-inner--text ml-1">
-                        Download
+                        Founding Documents! (TMI)
                       </span>
                     </Button>
                   </NavItem>

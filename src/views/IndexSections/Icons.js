@@ -28,19 +28,16 @@ class Icons extends React.Component {
           <Container>
             <Row className="justify-content-center">
               <Col className="text-center" lg="8">
-                <h2 className="display-3">Nucleo Icons</h2>
+                <h2 className="display-3">Our University Sponsors</h2>
                 <p className="lead">
-                  The official package contains over 21.000 icons which are
-                  looking great in combination with Argon Design System. Make
-                  sure you check all of them and use those that you like the
-                  most.
+                  Predominantly White Universities that align with the BIGSIS mission today. Check 'em out!
                 </p>
                 <div className="btn-wrapper">
                   <Button
                     color="primary"
                     href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/icons?ref=adsr-landing-page"
                   >
-                    View demo icons
+                    View Universities
                   </Button>
                   <Button
                     className="mt-3 mt-md-0"
@@ -48,15 +45,14 @@ class Icons extends React.Component {
                     href="https://nucleoapp.com/?ref=1712"
                     target="_blank"
                   >
-                    View all icons
+                    View all universities
                   </Button>
                 </div>
               </Col>
             </Row>
             <div className="blur--hover">
-              <a href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/icons?ref=adsr-landing-page">
-                <div className="icons-container blur-item mt-5 on-screen">
-                  <i className="icon ni ni-diamond" />
+              <a href="https://medium.com/@bigsishelpsyou">
+                <div className="icons-container blur-itemi">
                   <i className="icon icon-sm ni ni-album-2" />
                   <i className="icon icon-sm ni ni-app" />
                   <i className="icon icon-sm ni ni-atom" />
@@ -69,9 +65,10 @@ class Icons extends React.Component {
                   <i className="icon ni ni-calendar-grid-58" />
                   <i className="icon ni ni-camera-compact" />
                   <i className="icon ni ni-chart-bar-32" />
+                  <i class="fa-sharp fa-solid fa-plane-departure"></i>
                 </div>
                 <span className="blur-hidden h5 text-success">
-                  Eplore all the 21.000+ Nucleo Icons
+                  Eplore all universities, high schools, middle schools on team BIGSIS
                 </span>
               </a>
             </div>

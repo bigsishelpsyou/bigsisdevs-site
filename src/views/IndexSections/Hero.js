@@ -47,24 +47,23 @@ class Hero extends React.Component {
                     <img
                       alt="..."
                       className="img-fluid"
-                      src={require("assets/img/brand/argon-react-white.png")}
+                      src={require("assets/img/brand/bigsisdevs.png")}
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                    Support for International Scholars offers a nurturing and paved pathway into the United States for scholars of any level with the intention of entering, living in, or leaving the United States.
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0"
                         color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        href="https://linktr.ee/internationalscholarsupport"
                         size="lg"
                       >
                         <span className="btn-inner--icon mr-1">
-                          <i className="ni ni-cloud-download-95" />
+                          <i className="fa fa-link" />
                         </span>
-                        <span className="btn-inner--text">Download React</span>
+                        <span className="btn-inner--text">Click to learn more</span>
                       </Button>{" "}
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
@@ -74,23 +73,23 @@ class Hero extends React.Component {
                         target="_blank"
                       >
                         <span className="btn-inner--icon mr-1">
-                          <i className="fa fa-github" />
+                          <i className="fa " />
                         </span>
                         <span className="btn-inner--text">
-                          <span className="text-warning mr-1">Star us</span>
-                          on Github
+                          <span className="text-warning mr-1">check us out on </span>
+                          Github
                         </span>
                       </Button>
                     </div>
                     <div className="mt-5">
                       <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
+                        *a bigsis-devs prototype
                       </small>
                       <img
                         alt="..."
                         className="ml-1"
                         style={{ height: "28px" }}
-                        src={require("assets/img/brand/creativetim-white-slim.png")}
+                        src={require("assets/img/brand/bigsisdevs.png")}
                       />
                     </div>
                   </Col>

@@ -96,13 +96,12 @@ class Landing extends React.Component {
                         <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        >
+                          href="https://linktr.ee/internationalscholarsupport">
                           <span className="btn-inner--icon mr-1">
                             <i className="ni ni-cloud-download-95" />
                           </span>
                           <span className="btn-inner--text">
-                            Download React
+                            Click to learn more
                           </span>
                         </Button>
                       </div>
@@ -251,10 +250,11 @@ class Landing extends React.Component {
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
+                <h3>A bigsisdevs Prototype</h3>
                   <img
                     alt="..."
                     className="img-fluid floating"
-                    src={require("assets/img/theme/promo-1.png")}
+                    src={require("assets/img/brand/logo-v0-transparent.png")}
                   />
                 </Col>
                 <Col className="order-md-1" md="6">
@@ -262,7 +262,7 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
-                    <h3>Awesome features</h3>
+                    <h3>A bigsisdevs Prototype</h3>
                     <p>
                       The kit comes with three pre-built pages to help you get
                       started faster. You can change the text and images and
@@ -403,7 +403,7 @@ class Landing extends React.Component {
                     <img
                       alt="..."
                       className="img-center img-fluid"
-                      src={require("assets/img/ill/ill-2.svg")}
+                      src={require("assets/img/brand/logo-v0-transparent.png")}
                     />
                   </div>
                 </Col>
@@ -517,13 +517,13 @@ class Landing extends React.Component {
                     <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-1-800x800.jpg")}
+                      src={require("assets/img/brand/logo-v0-transparent.png")}
                       style={{ width: "200px" }}
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">Ryan Tompson</span>
-                        <small className="h6 text-muted">Web Developer</small>
+                        <span className="d-block mb-1">Abhilasha Callaway</span>
+                        <small className="h6 text-muted">Founding Engineer</small>
                       </h5>
                       <div className="mt-3">
                         <Button
@@ -559,14 +559,14 @@ class Landing extends React.Component {
                     <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-2-800x800.jpg")}
+                      src={require("assets/img/brand/logo-v0-transparent.png")}
                       style={{ width: "200px" }}
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">Romina Hadid</span>
+                        <span className="d-block mb-1">Xava deCordova</span>
                         <small className="h6 text-muted">
-                          Marketing Strategist
+                            Director of Product
                         </small>
                       </h5>
                       <div className="mt-3">
@@ -705,10 +705,10 @@ class Landing extends React.Component {
                         block
                         className="btn-white"
                         color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        href="https://linktr.ee/internationalscholarsupport"
                         size="lg"
                       >
-                        Download React
+                        Click to learn more
                       </Button>
                     </Col>
                   </Row>

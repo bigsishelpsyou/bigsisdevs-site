@@ -26,12 +26,12 @@ class ProgressSection extends React.Component {
       <>
         <Col lg="5">
           <h3 className="h4 text-success font-weight-bold mb-4">
-            Progress bars
+            Team Progress Sprint01 [October 12 - October 19]
           </h3>
           <div className="progress-wrapper">
             <div className="progress-info">
               <div className="progress-label">
-                <span>Task completed</span>
+                <span>Operations</span>
               </div>
               <div className="progress-percentage">
                 <span>40%</span>
@@ -42,10 +42,10 @@ class ProgressSection extends React.Component {
           <div className="progress-wrapper">
             <div className="progress-info">
               <div className="progress-label">
-                <span>Task completed</span>
+                <span>bigsis-devs</span>
               </div>
               <div className="progress-percentage">
-                <span>60%</span>
+                <span>60% tickets</span>
               </div>
             </div>
             <Progress max="100" value="60" />

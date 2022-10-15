@@ -87,7 +87,7 @@ class Datepicker extends React.Component {
   render() {
     return (
       <>
-        <h3 className="h4 text-success font-weight-bold mt-md mb-4">
+        {/* <h3 className="h4 text-success font-weight-bold mt-md mb-4">
           Datepicker
         </h3>
         <Row>
@@ -181,7 +181,7 @@ class Datepicker extends React.Component {
               </Col>
             </Row>
           </Col>
-        </Row>
+        </Row> */}
       </>
     );
   }
