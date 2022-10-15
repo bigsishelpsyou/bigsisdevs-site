@@ -33,7 +33,7 @@ class BasicElements extends React.Component {
               <Col lg="12">
                 {/* Basic elements */}
                 <h2 className="mb-5">
-                  <span>Basic Elements</span>
+                  <span>Hello, World! Welcome!</span>
                 </h2>
                 {/* Buttons */}
                 <h3 className="h4 text-success font-weight-bold mb-4">
