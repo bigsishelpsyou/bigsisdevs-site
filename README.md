@@ -1,6 +1,8 @@
 # BIGSIS DEVS PROTOTYPE BUILT OFF OF Creative Tim's Argon Design System React. 
 
-Thank you, Tim! What do you think?
+## Thank you, Tim! What do you think?
+
+******************************
 
 **What is bigsis-devs**
 
