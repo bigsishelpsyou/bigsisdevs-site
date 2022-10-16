@@ -9,13 +9,21 @@ Thank you, Tim! What do you think?
 The Support for International Scholars (BIGSIS) enjoys the privilege of the following founding engineers:
 
 Founding Engineer: Asha Callaway, https://github.com/ashadeka
+
 Founding Backend Engineer: Jason Feliz, https://github.com/jasonfeliz
-Founding Full-Stack Engineer: Zach Lowen, https://github.com/jasonfeliz
+
+Founding Full-Stack Engineer: Zach Lowen, https://github.com/zach.lowen
+
 Founding Architect: Catherine Zarra, https://github.com/cpzarra
+
 Founding Engineering Manager: Maria Boseke, https://github.com/mariaboseke
+
 Directory of Product: Xava deCordova, https://github.com/xavaleh
+
 Founding Data Scientist: Sean Finn
+
 UX Director: Lauren Dellapa
+
 Dev Intern: Heemakshi Deka
 
 ## Licensing
