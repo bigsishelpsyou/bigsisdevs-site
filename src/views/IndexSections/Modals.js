@@ -45,78 +45,16 @@ class Modals extends React.Component {
   render() {
     return (
       <>
-        <h2 className="mt-lg mb-5">
-          <span>Javascript Components</span>
-        </h2>
-        <h3 className="h4 text-success font-weight-bold mb-4">Modals</h3>
         <Row>
           <Col md="4">
             <Button
               block
-              className="mb-3"
-              color="primary"
-              type="button"
-              onClick={() => this.toggleModal("defaultModal")}
-            >
-              Default
-            </Button>
-            <Modal
-              className="modal-dialog-centered"
-              isOpen={this.state.defaultModal}
-              toggle={() => this.toggleModal("defaultModal")}
-            >
-              <div className="modal-header">
-                <h6 className="modal-title" id="modal-title-default">
-                  Type your modal title
-                </h6>
-                <button
-                  aria-label="Close"
-                  className="close"
-                  data-dismiss="modal"
-                  type="button"
-                  onClick={() => this.toggleModal("defaultModal")}
-                >
-                  <span aria-hidden={true}>×</span>
-                </button>
-              </div>
-              <div className="modal-body">
-                <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove right at the coast of
-                  the Semantics, a large language ocean.
-                </p>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country,
-                  in which roasted parts of sentences fly into your mouth.
-                </p>
-              </div>
-              <div className="modal-footer">
-                <Button color="primary" type="button">
-                  Save changes
-                </Button>
-                <Button
-                  className="ml-auto"
-                  color="link"
-                  data-dismiss="modal"
-                  type="button"
-                  onClick={() => this.toggleModal("defaultModal")}
-                >
-                  Close
-                </Button>
-              </div>
-            </Modal>
-          </Col>
-          <Col md="4">
-            <Button
-              block
-              className="mb-3"
+              className="fa-brands fa-patreon mb-3"
               color="warning"
               type="button"
               onClick={() => this.toggleModal("notificationModal")}
             >
-              Notification
+              Patreon
             </Button>
             <Modal
               className="modal-dialog-centered modal-danger"
@@ -126,7 +64,7 @@ class Modals extends React.Component {
             >
               <div className="modal-header">
                 <h6 className="modal-title" id="modal-title-notification">
-                  Your attention is required
+                  Patreon
                 </h6>
                 <button
                   aria-label="Close"
@@ -148,7 +86,7 @@ class Modals extends React.Component {
                 </div>
               </div>
               <div className="modal-footer">
-                <Button className="btn-white" color="default" type="button">
+                <Button className="btn-white" href="https://patreon.com/user?u=81080357&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator" target="_blank" color="default" type="button">
                   Go!
                 </Button>
                 <Button
@@ -163,7 +101,7 @@ class Modals extends React.Component {
               </div>
             </Modal>
           </Col>
-          <Col md="4">
+          {/* <Col md="4">
             <Button
               block
               color="default"
@@ -290,7 +228,7 @@ class Modals extends React.Component {
                 </Card>
               </div>
             </Modal>
-          </Col>
+          </Col> */}
         </Row>
       </>
     );

@@ -46,7 +46,6 @@ class TabsSection extends React.Component {
   render() {
     return (
       <>
-        <h3 className="h4 text-success font-weight-bold mb-4">Founding Team Updates</h3>
         <Row className="justify-content-center">
           <Col lg="6">
             {/* Tabs with icons */}

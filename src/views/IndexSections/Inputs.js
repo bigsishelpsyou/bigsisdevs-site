@@ -35,8 +35,8 @@ class Inputs extends React.Component {
   render() {
     return (
       <>
-        <section className="section pb-0 section-components">
-        </section>
+        {/* <section className="section pb-0 section-components">
+        </section> */}
       </>
     );
   }

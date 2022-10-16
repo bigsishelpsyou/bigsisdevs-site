@@ -30,6 +30,7 @@ import Buttons from "./IndexSections/Buttons.js";
 import Inputs from "./IndexSections/Inputs.js";
 import CustomControls from "./IndexSections/CustomControls.js";
 import Menus from "./IndexSections/Menus.js";
+import Modals from "./IndexSections/Modals.js";
 import Navbars from "./IndexSections/Navbars.js";
 import Tabs from "./IndexSections/Tabs.js";
 import Progress from "./IndexSections/Progress.js";
@@ -38,7 +39,6 @@ import Pills from "./IndexSections/Pills.js";
 import Labels from "./IndexSections/Labels.js";
 import Alerts from "./IndexSections/Alerts.js";
 import Typography from "./IndexSections/Typography.js";
-import Modals from "./IndexSections/Modals.js";
 import Datepicker from "./IndexSections/Datepicker.js";
 import TooltipPopover from "./IndexSections/TooltipPopover.js";
 import Carousel from "./IndexSections/Carousel.js";
@@ -60,15 +60,17 @@ class Index extends React.Component {
           <Hero />
           <Buttons />
           <Inputs />
-          <section className="section">
+          {/* <section className="section">
             <Container>
               <CustomControls />
               <Menus />
             </Container>
-          </section>
+          </section> */}
           <Navbars />
           <section className="section section-components">
             <Container>
+              <Alerts />
+              <Modals />
               <Tabs />
               <Row className="row-grid justify-content-between align-items-center mt-lg">
                 <Progress />
@@ -78,9 +80,7 @@ class Index extends React.Component {
                 <Pills />
                 <Labels />
               </Row>
-              <Alerts />
               <Typography />
-              <Modals />
               <Datepicker />
               <TooltipPopover />
             </Container>

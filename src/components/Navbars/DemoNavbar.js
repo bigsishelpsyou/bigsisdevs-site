@@ -295,14 +295,14 @@ class DemoNavbar extends React.Component {
                     <Button
                       className="btn-neutral btn-icon"
                       color="default"
-                      href="https://drive.google.com/drive/folders/1r9RGaMYAqZo3kafIgkhPlGvtYWPKEMAY?usp=sharinghttps://patreon.com/user?u=81080357&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator"
+                      href="https://linktr.ee/internationalscholarsupport"
                       target="_blank"
                     >
                       <span className="btn-inner--icon">
                         <i className="fa fa-link mr-2" />
                       </span>
                       <span className="nav-link-inner--text ml-1">
-                        Founding Documents! (TMI)
+                        Learn More!
                       </span>
                     </Button>
                   </NavItem>

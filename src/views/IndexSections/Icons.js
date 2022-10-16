@@ -51,8 +51,12 @@ class Icons extends React.Component {
               </Col>
             </Row>
             <div className="blur--hover">
-              <a href="https://medium.com/@bigsishelpsyou">
-                <div className="icons-container blur-itemi">
+              <a href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/icons?ref=adsr-landing-page">
+                <div className="icons-container blur-item mt-5 on-screen">
+                  <i className="icon ni ni-paper-diploma" />
+                  <i className="icon ni ni-trophy" />
+                  <i className="icon ni ni-credit-card" />
+                  <i className="icon ni ni-diamond" />
                   <i className="icon icon-sm ni ni-album-2" />
                   <i className="icon icon-sm ni ni-app" />
                   <i className="icon icon-sm ni ni-atom" />
@@ -65,7 +69,12 @@ class Icons extends React.Component {
                   <i className="icon ni ni-calendar-grid-58" />
                   <i className="icon ni ni-camera-compact" />
                   <i className="icon ni ni-chart-bar-32" />
-                  <i class="fa-sharp fa-solid fa-plane-departure"></i>
+                  <i className="icon ni ni-world" />
+                  <i className="icon ni ni-tag" />
+                  <i className="icon ni ni-tie-bow" />
+                  <i className="icon ni ni-calendar-grid-58" />
+                  <i className="icon ni ni-camera-compact" />
+                  <i className="icon ni ni-chart-bar-32" />
                 </div>
                 <span className="blur-hidden h5 text-success">
                   Eplore all universities, high schools, middle schools on team BIGSIS

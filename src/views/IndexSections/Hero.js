@@ -57,7 +57,8 @@ class Hero extends React.Component {
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0"
                         color="default"
-                        href="https://linktr.ee/internationalscholarsupport"
+                        href="https://drive.google.com/drive/folders/1r9RGaMYAqZo3kafIgkhPlGvtYWPKEMAY?usp=sharing"
+                        target="_blank"
                         size="lg"
                       >
                         <span className="btn-inner--icon mr-1">
