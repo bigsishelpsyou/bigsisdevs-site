@@ -1,11 +1,11 @@
 {
-  "name": "argon-design-system-react",
+  "name": "bigsis-devs-site",
   "version": "1.1.1",
-  "description": "React version of Argon Design System by Creative Tim",
+  "description": "Website - a bigsis-devs prototype",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/argon-design-system-react.git"
+    "url": "git+https://github.com/bigsishelpsyou.git"
   },
   "keywords": [
     "react",
@@ -20,16 +20,18 @@
     "react-kit",
     "argon-design-system",
     "argon-design-system-react",
-    "design-system-react"
+    "design-system-react",
+    "bigsishelpsyou",
+    "supportforinternationalscholars"
   ],
-  "author": "Creative Tim",
+  "author": "bigsis-devs",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
   },
   "homepage": "https://demos.creative-tim.com/argon-design-system-react/",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server/server.js",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -49,12 +51,13 @@
   "dependencies": {
     "bootstrap": "4.3.1",
     "classnames": "2.3.1",
+    "express": "^4.18.2",
     "headroom.js": "0.12.0",
     "moment": "2.29.4",
     "nouislider": "14.1.1",
-    "react": "18.2.0",
+    "react": ">=16.0.0",
     "react-datetime": "3.1.1",
-    "react-dom": "18.2.0",
+    "react-dom": ">=16.0.0",
     "react-router-dom": "5.1.2",
     "react-scripts": "5.0.1",
     "reactstrap": "8.4.1",
