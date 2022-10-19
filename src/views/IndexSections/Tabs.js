@@ -22,6 +22,7 @@ import classnames from "classnames";
 // reactstrap components
 import {
   Card,
+  Badge,
   CardBody,
   NavItem,
   NavLink,
@@ -46,7 +47,6 @@ class TabsSection extends React.Component {
   render() {
     return (
       <>
-        <h3 className="h4 text-success font-weight-bold mb-4">Founding Team Updates</h3>
         <Row className="justify-content-center">
           <Col lg="6">
             {/* Tabs with icons */}
@@ -87,7 +87,7 @@ class TabsSection extends React.Component {
                     role="tab"
                   >
                     <i className="ni ni-bell-55 mr-2" />
-                    Progress
+                    Pilot Program
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -118,9 +118,62 @@ class TabsSection extends React.Component {
                     </p>
                   </TabPane>
                   <TabPane tabId="iconTabs2">
-                    <p className="description">
-                      SCHOOL AND OPPORTUNITIES FOR ALL
-                    </p>
+                    <h4> University Students enjoy the following privileges for free: </h4>
+                        <div className="d-flex align-items-center">
+                        <div>
+                          <Badge
+                            className="badge-circle mr-3"
+                            color="success"
+                          >
+                            <i className="ni ni-settings-gear-65" />
+                          </Badge>
+                        </div>
+                        <div>
+                          <h6 className="mb-0">
+                            Tutoring Sessions.
+                            Calendly, coming soon!
+                          </h6>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div>
+                          <Badge
+                            className="badge-circle mr-3"
+                            color="success"
+                          >
+                            <i className="ni ni-html5" />
+                          </Badge>
+                        </div>
+                        <div>
+                          <h6 className="mb-0">Interview Prep - a full interview process with our dev team</h6>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div>
+                          <Badge
+                            className="badge-circle mr-3"
+                            color="success"
+                          >
+                            <i className="ni ni-html5" />
+                          </Badge>
+                        </div>
+                        <div>
+                          <h6 className="mb-0">Program Curricula Assessment/Support </h6>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div>
+                          <Badge
+                            className="badge-circle mr-3"
+                            color="success"
+                          >
+                            <i className="ni ni-html5" />
+                          </Badge>
+                        </div>
+                        <div>
+                          <h6 className="mb-0">Question: What else would you find helpful/useful/supported, right now!</h6>
+                        </div>
+                      </div>
                   </TabPane>
                   <TabPane tabId="iconTabs3">
                     <p className="description">

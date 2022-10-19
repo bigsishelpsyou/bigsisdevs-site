@@ -24,11 +24,11 @@ class BasicElements extends React.Component {
   render() {
     return (
       <>
-        <section
+        {/* <section
           className="section section-components pb-0"
           id="section-components"
         >
-        </section>
+        </section> */}
       </>
     );
   }

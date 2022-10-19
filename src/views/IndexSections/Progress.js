@@ -24,7 +24,7 @@ class ProgressSection extends React.Component {
   render() {
     return (
       <>
-        <Col lg="5">
+        {/* <Col lg="5">
           <h3 className="h4 text-success font-weight-bold mb-4">
             Team Progress Sprint01 [October 12 - October 19]
           </h3>
@@ -50,7 +50,7 @@ class ProgressSection extends React.Component {
             </div>
             <Progress max="100" value="60" />
           </div>
-        </Col>
+        </Col> */}
       </>
     );
   }

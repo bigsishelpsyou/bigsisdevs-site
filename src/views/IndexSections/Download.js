@@ -25,9 +25,9 @@ class Download extends React.Component {
   render() {
     return (
       <>
-        <section className="section section-lg">
-          <Container>
-            <Row className="row-grid justify-content-center">
+        {/* <section className="section section-lg">
+          <Container> */}
+            {/* <Row className="row-grid justify-content-center">
               <Col className="text-center" lg="8">
                 <h2 className="display-3">
                   Do you love this awesome{" "}
@@ -52,7 +52,7 @@ class Download extends React.Component {
                 </div>
                 <div className="text-center">
                   <h4 className="display-4 mb-5 mt-5">
-                    Available on these technologies
+                    Powered by
                   </h4>
                   <Row className="justify-content-center">
                     <Col lg="2" xs="4">
@@ -155,10 +155,10 @@ class Download extends React.Component {
                     </Col>
                   </Row>
                 </div>
-              </Col>
-            </Row>
+              </Col> */}
+            {/* </Row>
           </Container>
-        </section>
+        </section> */}
       </>
     );
   }

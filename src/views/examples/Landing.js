@@ -59,6 +59,7 @@ class Landing extends React.Component {
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
               <div className="shape shape-style-1 shape-default">
+                {/* <span />
                 <span />
                 <span />
                 <span />
@@ -66,42 +67,41 @@ class Landing extends React.Component {
                 <span />
                 <span />
                 <span />
-                <span />
-                <span />
+                <span /> */}
               </div>
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        A Founding Team on a Mission{" "}
+                        <span>We want to help you.</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        Support for International Scholars is an equal and opposite reaction to a traumatic event. 
+                        Our founding team empathizes, understands, relates to this trauma. We join together now,
+                        with the powerful intention of preventing, avoiding, supporting 
                       </p>
                       <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
+                          href="todo"
                         >
                           <span className="btn-inner--icon mr-1">
                             <i className="fa fa-code" />
                           </span>
-                          <span className="btn-inner--text">Components</span>
+                          <span className="btn-inner--text">The Founders</span>
                         </Button>
                         <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
-                          href="https://linktr.ee/internationalscholarsupport">
+                          href="https://drive.google.com/drive/folders/1r9RGaMYAqZo3kafIgkhPlGvtYWPKEMAY?usp=sharing">
                           <span className="btn-inner--icon mr-1">
                             <i className="ni ni-cloud-download-95" />
                           </span>
                           <span className="btn-inner--text">
-                            Click to learn more
+                            Founding Documents (Google Drive)
                           </span>
                         </Button>
                       </div>
@@ -140,22 +140,20 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Download CSVs
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            bigsis-devs works with datasets. This is what we're working with. devs: reach out.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
                               design
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              engineering
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              operations
                             </Badge>
                           </div>
                           <Button
@@ -331,7 +329,7 @@ class Landing extends React.Component {
                   <Card className="bg-default shadow border-0">
                     <CardImg
                       alt="..."
-                      src={require("assets/img/theme/img-1-1200x1000.jpg")}
+                      src={require("assets/img/theme/operations.jpg")}
                       top
                     />
                     <blockquote className="card-blockquote">
@@ -352,12 +350,11 @@ class Landing extends React.Component {
                         />
                       </svg>
                       <h4 className="display-3 font-weight-bold text-white">
-                        Design System
+                        More about Operations
                       </h4>
                       <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
+                        The founding team, the fulltime staff, the wonder team meets regularly, works asynchronously, communicates whenever necessary.
+                        We work very hard for our mission each day. Connect with us!
                       </p>
                     </blockquote>
                   </Card>
@@ -367,28 +364,24 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
                     </div>
-                    <h3>Our customers</h3>
+                    <h3>Our Services</h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                      BIGSIS initially targets predominantly white institutions (PWIs) with a slew of services to support their international student population.
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      University Service Kit comes with the following services: 
+                        - 
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      The kit comes with three pre-built services to help universities better service student visa holders. 
+                      Get started with us today!
                     </p>
                     <a
                       className="font-weight-bold text-warning mt-5"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >
-                      A beautiful UI Kit for impactful websites
+                      BIGSIS devs and operations are here to support you. Connect with us!
                     </a>
                   </div>
                 </Col>
@@ -705,10 +698,10 @@ class Landing extends React.Component {
                         block
                         className="btn-white"
                         color="default"
-                        href="https://linktr.ee/internationalscholarsupport"
+                        href="https://drive.google.com/drive/folders/1r9RGaMYAqZo3kafIgkhPlGvtYWPKEMAY?usp=sharinghttps://patreon.com/user?u=81080357&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator"
                         size="lg"
                       >
-                        Click to learn more
+                        Founding Documents
                       </Button>
                     </Col>
                   </Row>
