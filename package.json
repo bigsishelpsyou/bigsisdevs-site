@@ -13,21 +13,13 @@
     "argon",
     "argon-react",
     "design",
-    "design-react",
-    "argon-design",
-    "argon-design-react",
-    "kit",
-    "react-kit",
-    "argon-design-system",
-    "argon-design-system-react",
-    "design-system-react",
     "bigsishelpsyou",
     "supportforinternationalscholars"
   ],
   "author": "bigsis-devs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
+    "url": "https://github.com/bigsishelpsyou/.com/contact"
   },
   "homepage": "https://demos.creative-tim.com/argon-design-system-react/",
   "scripts": {
