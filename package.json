@@ -60,8 +60,10 @@
     "react-dom": ">=16.0.0",
     "react-router-dom": "5.1.2",
     "react-scripts": "5.0.1",
+    "react-sortablejs": "^6.1.4",
     "reactstrap": "8.4.1",
-    "sass": "1.53.0"
+    "sass": "1.53.0",
+    "sortablejs": "^1.15.0"
   },
   "peerDependencies": {
     "react": ">=16.0.0",
