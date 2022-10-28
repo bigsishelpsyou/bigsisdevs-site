@@ -31,7 +31,7 @@
   },
   "homepage": "https://demos.creative-tim.com/argon-design-system-react/",
   "scripts": {
-    "start": "node server/server.js",
+    "start": "node src/server.js",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -40,7 +40,77 @@
     "minify-sass": "sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.min.css --style compressed"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "parserOptions": {
+      "parser": "babel-eslint",
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "globals": {
+      "Vue": true
+    },
+    "settings": {
+      "import/resolver": {
+        "webpack": {
+          "config": "build/webpack.base.conf.js"
+        }
+      }
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:vue/recommended"
+    ],
+    "rules": {
+      "quotes": [
+        "error",
+        "double",
+        {
+          "avoidEscape": true
+        }
+      ],
+      "vue/html-indent": "tab",
+      "comma-dangle": [
+        "error",
+        {
+          "arrays": "ignore",
+          "objects": "always-multiline",
+          "imports": "never",
+          "exports": "never",
+          "functions": "ignore"
+        }
+      ],
+      "arrow-parens": 0,
+      "no-tabs": 0,
+      "indent": [
+        "error",
+        "tab",
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "no-console": 1,
+      "generator-star-spacing": 0,
+      "vue/max-attributes-per-line": [
+        3,
+        {
+          "singleline": 3
+        }
+      ],
+      "vue/html-self-closing": [
+        2,
+        {
+          "html": {
+            "void": "never",
+            "normal": "always",
+            "component": "always"
+          },
+          "svg": "always",
+          "math": "always"
+        }
+      ]
+    }
   },
   "browserslist": [
     ">0.2%",
@@ -55,28 +125,30 @@
     "headroom.js": "0.12.0",
     "moment": "2.29.4",
     "nouislider": "14.1.1",
-    "react": ">=16.0.0",
-    "react-datetime": "3.1.1",
-    "react-dom": ">=16.0.0",
+    "react": "^18.2.0",
+    "react-datetime": "3.2.0",
+    "react-dom": "^18.0.0",
     "react-router-dom": "5.1.2",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-sortablejs": "^6.1.4",
-    "reactstrap": "8.4.1",
+    "reactstrap": "8.10.1",
     "sass": "1.53.0",
-    "sortablejs": "^1.15.0"
-  },
-  "peerDependencies": {
-    "react": ">=16.0.0",
-    "react-dom": ">=16.0.0"
+    "sortablejs": "^1.15.0",
+    "eslint": "^5.16.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-vue": "^5.2.3"
   },
   "devDependencies": {
     "@types/googlemaps": "3.39.2",
     "@types/markerclustererplus": "2.1.33",
-    "@types/react": "18.0.17",
+    "@types/react": "18.0.24",
     "eslint-plugin-flowtype": "8.0.3",
-    "gulp": "4.0.2",
+    "gulp": "^4.0.2",
     "gulp-append-prepend": "1.0.9",
     "jquery": "3.6.0",
     "typescript": "4.7.4"
+  },
+  "engines": {
+    "node": "18.11.0"
   }
 }
