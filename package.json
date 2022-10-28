@@ -31,7 +31,7 @@
   },
   "homepage": "https://demos.creative-tim.com/argon-design-system-react/",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server/server.js",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -79,12 +79,7 @@
     "jquery": "3.6.0",
     "typescript": "4.7.4"
   },
-  "engines":{
-    "name": "example-app",
-    "description": "a really cool app",
-    "version": "1.0.0",
-    "engines": {
-      "node": "18.11.0"
-    }
+  "engines": {
+    "node": "18.11.0"
   }
 }
