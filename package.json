@@ -40,7 +40,7 @@
     "minify-sass": "sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.min.css --style compressed"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "bigsis-devs-site"
   },
   "browserslist": [
     ">0.2%",
