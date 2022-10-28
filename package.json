@@ -133,7 +133,10 @@
     "react-sortablejs": "^6.1.4",
     "reactstrap": "8.10.1",
     "sass": "1.53.0",
-    "sortablejs": "^1.15.0"
+    "sortablejs": "^1.15.0",
+    "eslint": "^5.16.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-vue": "^5.2.3"
   },
   "devDependencies": {
     "@types/googlemaps": "3.39.2",
