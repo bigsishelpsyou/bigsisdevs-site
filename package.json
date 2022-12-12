@@ -1,7 +1,7 @@
 {
-  "name": "argon-design-system-react",
+  "name": "bigsis-devs-site",
   "version": "1.1.1",
-  "description": "React version of Argon Design System by Creative Tim",
+  "description": "basef off of Argon Design System by Creative Tim",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -22,12 +22,12 @@
     "argon-design-system-react",
     "design-system-react"
   ],
-  "author": "Creative Tim",
+  "author": "bigsis-devs",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
   },
-  "homepage": "https://demos.creative-tim.com/argon-design-system-react/",
+  "homepage": "https://supportforinternationalscholars.org",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
