@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "https://www.supportforinternationalscholars.org/static/css/main.d72019ec.css",
+    "main.js": "https://www.supportforinternationalscholars.org/static/js/main.2006a9c8.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "https://www.supportforinternationalscholars.org/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/img-1-1200x1000.jpg": "https://www.supportforinternationalscholars.org/static/media/img-1-1200x1000.df1442cf520034feb3b0.jpg",
+    "static/media/img-2-1200x1000.jpg": "https://www.supportforinternationalscholars.org/static/media/img-2-1200x1000.78ce5ecad91906896cd1.jpg",
+    "static/media/team-3-800x800.jpg": "https://www.supportforinternationalscholars.org/static/media/team-3-800x800.70911cddbb86ea83b652.jpg",
+    "static/media/fontawesome-webfont.eot": "https://www.supportforinternationalscholars.org/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "https://www.supportforinternationalscholars.org/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/landing.jpg": "https://www.supportforinternationalscholars.org/static/media/landing.530e5e3e621fe49e8e46.jpg",
+    "static/media/nucleo-icons.svg": "https://www.supportforinternationalscholars.org/static/media/nucleo-icons.01ebecaf50461162d4bc.svg",
+    "static/media/team-4-800x800.jpg": "https://www.supportforinternationalscholars.org/static/media/team-4-800x800.99c612eb60728a5aeeb0.jpg",
+    "static/media/profile.jpg": "https://www.supportforinternationalscholars.org/static/media/profile.991e6d2c8d229cc026b3.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "https://www.supportforinternationalscholars.org/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/bigsisdevs.png": "https://www.supportforinternationalscholars.org/static/media/bigsisdevs.04987b0d66efc36a6191.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "https://www.supportforinternationalscholars.org/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/logo-v0-transparent.png": "https://www.supportforinternationalscholars.org/static/media/logo-v0-transparent.9e889087a3b856b14a7a.png",
+    "static/media/nucleo-icons.eot": "https://www.supportforinternationalscholars.org/static/media/nucleo-icons.19abb5402a664606b14c.eot",
+    "static/media/nucleo-icons.ttf": "https://www.supportforinternationalscholars.org/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
+    "static/media/nucleo-icons.woff": "https://www.supportforinternationalscholars.org/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
+    "static/media/nucleo-icons.woff2": "https://www.supportforinternationalscholars.org/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
+    "static/media/google.svg": "https://www.supportforinternationalscholars.org/static/media/google.eae9aa9354350126d1b032847835a051.svg",
+    "static/media/github.svg": "https://www.supportforinternationalscholars.org/static/media/github.6c95555646a0ecabf549179c97bf0e7d.svg",
+    "index.html": "https://www.supportforinternationalscholars.org/index.html",
+    "main.d72019ec.css.map": "https://www.supportforinternationalscholars.org/static/css/main.d72019ec.css.map",
+    "main.2006a9c8.js.map": "https://www.supportforinternationalscholars.org/static/js/main.2006a9c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d72019ec.css",
+    "static/js/main.2006a9c8.js"
+  ]
+}
